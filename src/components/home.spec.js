@@ -12,6 +12,7 @@ describe('<home/>', () => {
         expect(getAxiosx.mock.calls.length).toBe(1);
       });
       it('用户信息渲染正确', () => {
-        expect(wrapper.find('.msg').text()).toEqual('olive');
+        expect(wrapper.find('.go').text()).toEqual('查看历史记录');
+      
       });
   });
